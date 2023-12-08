@@ -15,7 +15,7 @@ export const HeroCard:FC<THero> = ({
 }) => {
 
     // const charactersByHero = <p>{characters}</p>;
-    const heroImageUrl = `/assets/heroes/${id}.jpg`;
+    const heroImageUrl = `/heroes/${id}.jpg`;
 
   return (
     <div className="colv animate__animated animate__fadeIn">
